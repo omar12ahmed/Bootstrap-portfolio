@@ -122,7 +122,34 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 0.3s;
 }
 
+.shoppingCartContainer{
+    height: 300px;
+    overflow: hidden;
+    background: url(../images/shopping-cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+}
+
+.validationContainer{
+        height: 300px;
+        overflow: hidden;
+        background: url(../images/form-validation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.employeeTracker{
+    height: 300px;
+    overflow: hidden;
+    background: url(../images/employee-tracker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
 

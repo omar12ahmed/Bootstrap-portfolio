@@ -53,8 +53,7 @@
       <p class="col-md-12 fs-4">Aspiring junior developer with a passion for coding and technology, leveraging hands-on
         internships and self-teaching to cultivate expertise. Committed to continual growth within the dynamic realm of
         technology.</p>
-      <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="modal"
-        data-bs-target="#exampleModal">Resume</button>
+        <a href="https://omar12ahmed.github.io/8-ball-game/ " class="btn btn-primary btn-lg" type="button">Resume</a>
     </div>
   </div>
 
@@ -115,12 +114,13 @@
         <div class="col">
           <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
             <div class="card">
-              <img src="images/employee-tracker.jpg" class="card-img-top"
-                alt="A demo picture of an employee tracker">
+              <!-- <img src="images/employee-tracker.jpg" class="card-img-top"
+                alt="A demo picture of an employee tracker"> -->
+                <div class="employeeTracker"></div>
               <div class="card-body">
                 <h5 class="card-title">Employee Tracker</h5>
                 <p class="card-text">This project enables users to monitor and manage employess information.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://omar12ahmed.github.io/employee-tracker/" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -129,8 +129,9 @@
         <div class="col">
           <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
             <div class="card">
-              <img src="images/form-validation.jpg" class="card-img-top"
-                alt="A picture of a checklist with some of the boxes ticked">
+              <!-- <img src="images/form-validation.jpg" class="card-img-top"
+                alt="A picture of a checklist with some of the boxes ticked"> -->
+                <div class="validationContainer"></div>
               <div class="card-body">
                 <h5 class="card-title">Form Validation</h5>
                 <p class="card-text"> A basic form validation preventing users from submitting incorrect data and
@@ -147,8 +148,9 @@
         <div class="col">
           <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
             <div class="card">
-              <img src="images/shopping-cart.jpg" class="card-img-top"
-                alt=" A picture of a small shopping cart with some boxes  inside, placed on top a keyboard">
+              <!-- <img src="images/shopping-cart.jpg" class="card-img-top" -->
+              <div class="shoppingCartContainer"></div>
+                <!-- alt=" A picture of a small shopping cart with some boxes  inside, placed on top a keyboard"> -->
               <div class="card-body">
                 <h5 class="card-title">Shopping Cart</h5>
                 <p class="card-text"> A simple shopping cart which includes features like product display, shopping cart
@@ -211,26 +213,37 @@
         <form>
           <h2>Contact Form</h2>
   
-          <div class="input-group">
-            <span class="input-group-text">First and last name</span>
-            <label for=""></label>
-            <input type="text" aria-label="First name" class="form-control">
-            <input type="text" aria-label="Last name" class="form-control">
+          <div class="mb-3">
+            <label for="fullName">Full Name:</label>
+            <input type="email" class="form-control" id="fullName" aria-describedby="name"
+              placeholder="Enter Full Name">
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1">Email address</label>
+            <label for="exampleInputEmail1">Email address:</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
               placeholder="Enter email">
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
+      <div>
+
+        <h3>Contact Details</h3>
+        <p class="contact-details">
+          Email: <a href="omar12ahmed@hotmail.com">omar12ahmed@hotmail.com</a>
+        </p>
+        <p>
+          Phone Number: <a href="+447379119026">+447379119026</a>
+        </p>
+      </div>
     </div>
+
+    
 
   </section>
 
@@ -245,24 +258,6 @@
     </div>
   </footer>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
   
 </body>
 
