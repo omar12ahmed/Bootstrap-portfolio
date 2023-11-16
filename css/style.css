@@ -98,7 +98,7 @@ footer {
 
 .jumbotron {
     height: calc(100vh - 25px);
-    background-image: url(/Bootstrap-portfolio/images/rename.jpg);
+    background-image: url(../images/rename.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -118,7 +118,7 @@ footer {
 .eightballContainer{
     height: 300px;
     overflow: hidden;
-    background: url(/Bootstrap-portfolio/images/magic-8-ball.jpg);
+    background: url(../images/magic-8-ball.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
