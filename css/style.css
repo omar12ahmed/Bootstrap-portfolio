@@ -125,6 +125,22 @@ footer {
     opacity: 0.3s;
 }
 
+.row{
+    width: 90%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.cal{
+    width: 100%;
+}
+
+
+
+.card:hover{
+    opacity: 0.7;
+    box-shadow: 0 0 18px 12px rgba(0, 0, 0, 0.5);
+}
+
 .shoppingCartContainer{
     height: 300px;
     overflow: hidden;

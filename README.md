@@ -8,11 +8,22 @@ Welcome to my portfolio! This repository showcases a collection of my work, prov
 
 ## Table of Contents
 
+- [Technologies used](#technologies-used)
 - [About Me](#about-me)
 - [work](#work)
+- [Screenshot](#screenshot)
 - [Contact Me](#contact-me)
 - [Live Project](#live-project)
 - [Repository](#repository)
+
+
+## Technologies used 
+* [![HTML5](https://img.shields.io/badge/HTML-5-orange)](https://www.w3.org/TR/html52/)
+
+* [![CSS3](https://img.shields.io/badge/CSS-3-blue)](https://www.w3.org/TR/css-2018/)
+
+* [![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.7.0-blueviolet)](https://getbootstrap.com/)
+
 
 ## About Me
 
@@ -34,13 +45,18 @@ In this portfolio, you'll find a selection of my projects, each demonstrating di
 
 Feel free to explore each project for more details, including live demos and source code links.
 
+
+## Screenshot
+
+![Screenshot](/images/screenshot.jpg)
+
 ## Contact Me
 
 I'm always open to connecting with fellow developers and potential collaborators. You can reach out to me through the following channels:
 
-- Email: [omar12ahmed@hotmail.com](mailto:omar12ahmed@hotmail.com)
-- LinkedIn: [Yet to be confirmed](https://www.linkedin.com)
-- GitHub: [GitHub Profile](https://github.com/omar12ahmed)
+- **Email:** [omar12ahmed@hotmail.com](mailto:omar12ahmed@hotmail.com)
+- **LinkedIn:** [Linked In Profile](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
+- **GitHub:** [GitHub Profile](https://github.com/omar12ahmed)
 
 Feel free to get in touch if you have any questions, feedback, or opportunities to discuss.
 
